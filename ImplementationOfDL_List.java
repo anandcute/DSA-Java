@@ -6,9 +6,9 @@ public class ImplementationOfDL_List{
         list.insertAtBeginning(5);
         list.insertAtBeginning(7);
         list.insertAtBeginning(9);
-        // list.display();
-        // System.out.println("");
-        // list.displayReverse();
+        list.display();
+        System.out.println("");
+        list.displayReverse();
 
         // System.out.println("");
         // list.insertAtPosition(1,10);
@@ -26,17 +26,17 @@ public class ImplementationOfDL_List{
         // System.out.println("");
         // list.displayReverse();
 
-        System.out.println("Forward Iteration:");
-        for (Object i : list) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
+        // System.out.println("Forward Iteration:");
+        // for (Object i : list) {
+        //     System.out.print(i + " ");
+        // }
+        // System.out.println();
 
-        System.out.println("Reverse Iteration:");
-        Iterator<Integer> revIter = list.reverseIterator();
-        while (revIter.hasNext()) {
-            System.out.print(revIter.next() + " ");
-        } 
+        // System.out.println("Reverse Iteration:");
+        // Iterator<Integer> revIter = list.reverseIterator();
+        // while (revIter.hasNext()) {
+        //     System.out.print(revIter.next() + " ");
+        // } 
 
         
     }
