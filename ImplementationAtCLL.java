@@ -16,7 +16,7 @@ public class ImplementationAtCLL {
 
     //    System.out.println("\nlength of list : " + list.length());
 
-        list.deleteAtPosition(1);
+        list.deleteAtPosition(6);
         list.display();
         // list.deleteAtBeginning();
         // System.out.println(list.deleteAtBeginning());
