@@ -17,7 +17,7 @@ public class BinarySearchTree {
     }
 
     public void insert(int val){
-        insert(root,val);
+       root = insert(root,val);
         // System.out.println(root.key);
     }
     public Node insert(Node root , int value){
@@ -45,6 +45,10 @@ public class BinarySearchTree {
         if(value < root.key)
            return search(root.left, value);
         return search(root.right, value); 
+    }
+
+    public void delete(int value){
+        root = delete(root, value);    // main root node ya delete pananum apo itha method tha use agum
     }
 
     public Node delete(Node root , int value){
